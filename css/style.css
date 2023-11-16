@@ -1209,7 +1209,7 @@ body {
   color: #f7f7f7; }
 
 .header {
-  height: 100vh;
+  height: 70vh;
   /* linear grad pramater 1 direction  parm 2 two colors (opacity is done with the color editor first slider when the slider opens maks sure you are on rgba) pram 3 the image */
   background-image:  url(../img/steveLogo.png);
   background-size: cover;
