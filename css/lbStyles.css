@@ -9,6 +9,7 @@ p {
 }
 .gallery{
   margin: 30px 150px;
+  background-color: lightblue;
 }
 .gallery img{
   transition: 1s;
