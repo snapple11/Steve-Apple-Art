@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-
 <html>
-
-    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="css/lbStyles.css">
-<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-
+<link rel="stylesheet" type="text/css" href="css/slideShow.css">
+<link rel="stylesheet" href="css/icon-font.css">
+<link rel="stylesheet" href="css/style.css">
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,98 +23,279 @@
 <link rel="stylesheet" href="css/icon-font.css">
 <link rel="stylesheet" href="css/style.css">
 
-<link rel="shortcut icon" type="image/png" href="img/favicon.ico">
-<script>
-        function closeNav() {
-          document.getElementById("navi-toggle").checked = false;
-        }
-      </script>
+
 
 
 <title>Steve's Color Pencil Art</title>
 
-  </head>
 
-    <body>
-        <header class="header "> 
-            <div class="header__logo-box">
+
+
+
+<body>
+
+       
             
-            </div>
-            <div class="header__text-box">
-            
-            
+            <div class="main">
+             <div class=>
+                
+                </div>
+
+                <header class="header"> 
+
+                    <div class="header__logo-box">
+                   
+                    </div>
+                    <div class="header__text-box">
+
+                      <script>
+                        function closeNav() {
+                          document.getElementById("navi-toggle").checked = false;
+                        }
+                        document.addEventListener('keydown', function(event) {
+    if(event.keyCode == 37) {
+        plusSlides(-1)
+    }
+    else if(event.keyCode == 39) {
+        plusSlides(1)
+    }
+});
+                      </script> 
+                   
+                </div>
+                </header>
+
+    <section class="section-art" >
+     
+        <div class="u-center-text u-margin-bottom-big">
+
+            <h2 class="heading-secondary" id="photo">
+
+                My Color Pencil Art
+
+            </h2>
+
         </div>
-        </header>
 
+        <div class="row" id="photo">                                          
 
+                  <div class="col-1-of-2" >
+                    <h3 class="heading-tertiary u-margin-bottom-small">It's All About Shapes</h3>    
 
-     
-     
+                        <p class="paragraph" >
 
-        <section class="section-art" >
-     
-          <div class="u-center-text u-margin-bottom-big">
-
-              <h2 class="heading-secondary" id="photo">
-
-                  My Color Pencil Art
-
-              </h2>
-
-          </div>
-
-          <div class="row" id="photo">                                          
-
-                    <div class="col-1-of-2" >
-                      <h3 class="heading-tertiary u-margin-bottom-small">It's All About Shapes</h3>    
-
-                          <p class="paragraph" >
-  
-                              
-                            Rectangles, cylinders, circles, triangles...If you can see the shapes that make up the thing you wish to draw you are 70% of the way to putting it on paper.  I never thought that by connecting the shapes and coloring them you could make beautiful art. Of course, beauty is in the eye of the beholder. I'm not saying it is simple but if you put in the time, you can make art.  I love my art and thanks to Ava and all my instructors at Udmey.com I have done something that I never thought I could do. 
-                          
-
-                      
-         </section>                     </p>
                             
-                               
-<section class="section-art-1">
+                          Rectangles, cylinders, circles, triangles...If you can see the shapes that make up the thing you wish to draw you are 70% of the way to putting it on paper.  I never thought that by connecting the shapes and coloring them you could make beautiful art. Of course, beauty is in the eye of the beholder. I'm not saying it is simple but if you put in the time, you can make art.  I love my art and thanks to Ava and all my instructors at Udmey.com I have done something that I never thought I could do. 
+                        
+
+                    
+       </section>                     </p>
+
+
+
+
+       <section class="section-art-1">
+
+        <h2 class= "margin" style="text-align:center">Color Pencil Gallery</h2>
 
       
-      <p class="art-par">Click on a thumbnail to enlarge the art. Clicking on the right side of the expanded box takes you to the next image in the gallery. Click outside of the box to return.</p>
-<div class="gallery" id="ComputerArt">
-  <!-- first image is the lightbox immage second immage is the gallery image -->
- <a href="img/colorPencil/Color Pencil Blending.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color Pencil Blending.jpg" alt="5Terre" width="240" height="160">
-    <a href="img/colorPencil/Color Pencil Boat and landscape.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color Pencil Boat and landscape.jpg" alt="5Terre" width="240" height="160">
-      <a href="img/colorPencil/Color Pencil Candle.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color Pencil Candle.jpg" alt="5Terre" width="240" height="160">
-        <a href="img/colorPencil/color pencil Candlestick Phone.jpg" data-lightbox="mygallery"><img src="img/colorPencil/color pencil Candlestick Phone.jpg" alt="5Terre" width="240" height="160">
-          <a href="img/colorPencil/Color pencil Creature.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color pencil Creature.jpg" alt="5Terre" width="240" height="160">
-            <a href="img/colorPencil/Color Pencil Flowers.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color Pencil Flowers.jpg" alt="5Terre" width="240" height="160">
-              <a href="img/colorPencil/Color Pencil Frog.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color Pencil Frog.jpg" alt="5Terre" width="240" height="160">
-                <a href="img/colorPencil/Color Pencil Items.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color Pencil Items.jpg" alt="5Terre" width="240" height="160">
-                  <a href="img/colorPencil/color pencil Log Pile.jpg" data-lightbox="mygallery"><img src="img/colorPencil/color pencil Log Pile.jpg" alt="5Terre" width="240" height="160">
-                    <a href="img/colorPencil/Color Pencil Jewel butterfly.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color Pencil Jewel butterfly.jpg" alt="5Terre" width="240" height="160">
-                      <a href="img/colorPencil/Color Pencil Jewel Spider.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color Pencil Jewel Spider.jpg" alt="5Terre" width="240" height="160">
-                        <a href="img/colorPencil/Color Pencil Jewel.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color Pencil Jewel.jpg" alt="5Terre" width="240" height="160">
-<a href="img/colorPencil/color pencil Pen and Cat.jpg" data-lightbox="mygallery"><img src="img/colorPencil/color pencil Pen and Cat.jpg" alt="5Terre" width="240" height="160">
-  <a href="img/colorPencil/Color Pencil Pyrimids.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color Pencil Pyrimids.jpg" alt="5Terre" width="240" height="160">
-    <a href="img/colorPencil/Color pencil Shapes.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color pencil Shapes.jpg" alt="5Terre" width="240" height="160">
-      <a href="img/colorPencil/Color pencil Sphere.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color pencil Sphere.jpg" alt="5Terre" width="240" height="160">
-        <a href="img/colorPencil/Color pencil Tiger eyes.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color pencil Tiger eyes.jpg" alt="5Terre" width="240" height="160">
-          <a href="img/colorPencil/Tomatoes.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Tomatoes.jpg" alt="5Terre" width="240" height="160">
-            <a href="img/colorPencil/Color pencil conchShell.jpg" data-lightbox="mygallery"><img src="img/colorPencil/Color pencil conchShell.jpg" alt="5Terre" width="240" height="160">
-              >
-      
-      
-      
-                                  </section>
+        <p class="art-par">
+  <div class="gallery" id="ComputerArt">
+    <!-- first image is the lightbox immage second immage is the gallery image -->
+    <img src="img/colorPencil/Color Pencil Blending.jpg" alt="5Terre" width="240" height="160">
+      <img src="img/colorPencil/Color Pencil Boat and landscape.jpg" alt="5Terre" width="240" height="160">
+        <img src="img/colorPencil/Color Pencil Candle.jpg" alt="5Terre" width="240" height="160">
+          <img src="img/colorPencil/color pencil Candlestick Phone.jpg" alt="5Terre" width="240" height="160">
+            <img src="img/colorPencil/Color pencil Creature.jpg" alt="5Terre" width="240" height="160">
+              <img src="img/colorPencil/Color Pencil Flowers.jpg" alt="5Terre" width="240" height="160">
+                <img src="img/colorPencil/Color Pencil Frog.jpg" alt="5Terre" width="240" height="160">
+                  <img src="img/colorPencil/Color Pencil Items.jpg" alt="5Terre" width="240" height="160">
+                    <img src="img/colorPencil/color pencil Log Pile.jpg" alt="5Terre" width="240" height="160">
+                      <img src="img/colorPencil/Color Pencil Jewel butterfly.jpg" alt="5Terre" width="240" height="160">
+                        <img src="img/colorPencil/Color Pencil Jewel Spider.jpg" alt="5Terre" width="240" height="160">
+                          <img src="img/colorPencil/Color Pencil Jewel.jpg" alt="5Terre" width="240" height="160">
+  <img src="img/colorPencil/color pencil Pen and Cat.jpg" alt="5Terre" width="240" height="160">
+    <img src="img/colorPencil/Color Pencil Pyrimids.jpg" alt="5Terre" width="240" height="160">
+      <img src="img/colorPencil/Color pencil Shapes.jpg" alt="5Terre" width="240" height="160">
+        <img src="img/colorPencil/Color pencil Sphere.jpg" alt="5Terre" width="240" height="160">
+          <img src="img/colorPencil/Tomatoes.jpg" alt="5Terre" width="240" height="160">
+              <img src="img/colorPencil/Color pencil conchShell.jpg" alt="5Terre" width="240" height="160">
+                >
 
-<br>
-<div class="u-center-text u-margin-top-huge">
-    <a href="index.html" class="btn btn--green">Back to home</a>
-</div>
-</div>
+                <h2 class= "margin newcolor"  style="text-align:center">Color Pencil SlideShow <br>use keyboard arrow keys </h2>
+                
 
-<script src="js/lightbox-plus-jquery.min.js" charset="utf-8"></script>
+<div class="container">
+  
+
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color Pencil Blending.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color Pencil Boat and landscape.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color Pencil Candle.jpg" style="width:50%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/color pencil Candlestick Phone.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color pencil Creature.jpg" style="width:50%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color Pencil Flowers.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color Pencil Frog.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color Pencil Items.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color Pencil Jewel butterfly.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color Pencil Jewel Spider.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color Pencil Jewel.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/color pencil Log Pile.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/color pencil Pen and Cat.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color Pencil Pyrimids.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color pencil Shapes.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color pencil Sphere.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color pencil Tiger eyes.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Tomatoes.jpg" style="width:50%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="img/colorPencil/Color pencil conchShell.jpg" style="width:50%">
+    </div>
+  
+
+
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  
+ 
+
+
+ 
+
+                
+                <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("demo");
+                  let captionText = document.getElementById("caption");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                  captionText.innerHTML = dots[slideIndex-1].alt;
+                }
+
+
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+
+
+
+                </script>
+    
 </body>
 </html>
