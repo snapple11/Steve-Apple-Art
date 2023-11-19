@@ -1,41 +1,38 @@
 <!DOCTYPE html>
-
 <html>
-
-    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="css/lbStyles.css">
-<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-
+<link rel="stylesheet" type="text/css" href="css/slideShow.css">
+<link rel="stylesheet" href="css/icon-font.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   
     
-            
-    
-<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
 
+<title>Steve's Color Pencil Art</title>
 
-<link rel="stylesheet" href="css/icon-font.css">
-<link rel="stylesheet" href="css/style.css">
-
-<link rel="shortcut icon" type="image/png" href="img/favicon.ico">
-<script>
-        function closeNav() {
-          document.getElementById("navi-toggle").checked = false;
-        }
-      </script>
-
-
-<title>Steve's Computer Art</title>
-
-  </head>
-
+         <script>
+                        function closeNav() {
+                          document.getElementById("navi-toggle").checked = false;
+                        }
+                        document.addEventListener('keydown', function(event) {
+    if(event.keyCode == 37) {
+        plusSlides(-1)
+    }
+    else if(event.keyCode == 39) {
+        plusSlides(1)
+    }
+});
+                      </script>
+</body>-
     <body>
         <header class="header "> 
             <div class="header__logo-box">
@@ -85,41 +82,229 @@
   <p class="art-par">Click on a thumbnail to enlarge the art. Clicking on the right side of the expanded box takes you to the next image in the gallery. Click outside of the box to return.</p>
 <div class="gallery" id="ComputerArt">
   <!-- first image is the lightbox immage second immage is the gallery image -->
-   <a href="img/computerArt/Snake.jpg" data-lightbox="mygallery"><img src="img/computerArt/Snake.jpg" alt="5Terre" width="240" height="160">
-    <a href="img/computerArt/Raccoon w hand drawing.jpg" data-lightbox="mygallery"><img src="img/computerArt/Raccoon w hand drawing.jpg" alt="5Terre" width="240" height="160">
-      <a href="img/computerArt/pumpkin Cat.jpg" data-lightbox="mygallery"><img src="img/computerArt/pumpkin Cat.jpg" alt="5Terre" width="240" height="160">
-        <a href="img/computerArt/pepsi can.jpg" data-lightbox="mygallery"><img src="img/computerArt/pepsi can.jpg" alt="5Terre" width="240" height="160">
-          <a href="img/computerArt/Pacific Woman final.jpg" data-lightbox="mygallery"><img src="img/computerArt/Pacific Woman final.jpg" alt="5Terre" width="240" height="160">
-            <a href="img/computerArt/candle1.jpg" data-lightbox="mygallery"><img src="img/computerArt/candle1.jpg" alt="5Terre" width="240" height="160">
-              <a href="img/computerArt/Mango.jpg" data-lightbox="mygallery"><img src="img/computerArt/Mango.jpg" alt="5Terre" width="240" height="160">
-                <a href="img/computerArt/pencil.jpg" data-lightbox="mygallery"><img src="img/computerArt/pencil.jpg" alt="5Terre" width="240" height="160">
-                  <a href="img/computerArt/monkey Gradient BAD COLOR.jpg" data-lightbox="mygallery"><img src="img/computerArt/monkey Gradient BAD COLOR.jpg" alt="5Terre" width="240" height="160">
-                    
-                      <a href="img/computerArt/Creature.jpg" data-lightbox="mygallery"><img src="img/computerArt/Creature.jpg" alt="5Terre" width="240" height="160">
-                        <a href="img/computerArt/smiley png Steve.jpg" data-lightbox="mygallery"><img src="img/computerArt/smiley png Steve.jpg" alt="5Terre" width="240" height="160">
-<a href="img/computerArt/07-020 completed.jpg" data-lightbox="mygallery"><img src="img/computerArt/07-020 completed.jpg" alt="5Terre" width="240" height="160">
-  <a href="img/computerArt/challenge 2 Steve.jpg" data-lightbox="mygallery"><img src="img/computerArt/challenge 2 Steve.jpg" alt="5Terre" width="240" height="160">
-    <a href="img/computerArt/Anime girl.jpg" data-lightbox="mygallery"><img src="img/computerArt/Anime girl.jpg" alt="5Terre" width="240" height="160">
-      <a href="img/computerArt/Apple1.jpg" data-lightbox="mygallery"><img src="img/computerArt/Apple1.jpg" alt="5Terre" width="240" height="160">
-        <a href="img/computerArt/turtle 100%.jpg" data-lightbox="mygallery"><img src="img/computerArt/turtle 100%.jpg" alt="5Terre" width="240" height="160">
-          <a href="img/computerArt/halloween Drewzilla.jpg" data-lightbox="mygallery"><img src="img/computerArt/halloween Drewzilla.jpg" alt="5Terre" width="240" height="160">
-            <a href="img/computerArt/Haunted House Steve Final.jpg" data-lightbox="mygallery"><img src="img/computerArt/Haunted House Steve Final.jpg" alt="5Terre" width="240" height="160">
-              <a href="img/computerArt/Three sphere working file.jpg" data-lightbox="mygallery"><img src="img/computerArt/Three sphere working file.jpg" alt="5Terre" width="240" height="160">
-                <a href="img/computerArt/triangle.jpg" data-lightbox="mygallery"><img src="img/computerArt/triangle.jpg" alt="5Terre" width="240" height="160">
-                  <a href="img/computerArt/Pig and Deer AND GOAT.jpg" data-lightbox="mygallery"><img src="img/computerArt/Pig and Deer AND GOAT.jpg" alt="5Terre" width="240" height="160">
-                    <a href="img/computerArt/sae angel almost Final.jpg" data-lightbox="mygallery"><img src="img/computerArt/sae angel almost Final.jpg" alt="5Terre" width="240" height="160">
+  <img src="img/computerArt/Snake.jpg" alt="5Terre" width="240" height="160">
+    <img src="img/computerArt/Raccoon w hand drawing.jpg" alt="5Terre" width="240" height="160">
+      <img src="img/computerArt/pumpkin Cat.jpg" alt="5Terre" width="240" height="160">
+        <img src="img/computerArt/pepsi can.jpg" alt="5Terre" width="240" height="160">
+          <img src="img/computerArt/Pacific Woman final.jpg" alt="5Terre" width="240" height="160">
+            <img src="img/computerArt/candle1.jpg" alt="5Terre" width="240" height="160">
+              <img src="img/computerArt/Mango.jpg" alt="5Terre" width="240" height="160">
+                <img src="img/computerArt/pencil.jpg" alt="5Terre" width="240" height="160">
+                  <img src="img/computerArt/monkey Gradient BAD COLOR.jpg" alt="5Terre" width="240" height="160">
+                      <img src="img/computerArt/Creature.jpg" alt="5Terre" width="240" height="160">
+                        <img src="img/computerArt/smiley.jpg" alt="5Terre" width="240" height="160">
+                          <img src="img/computerArt/07-020 completed.jpg" alt="5Terre" width="240" height="160">
+  <img src="img/computerArt/challenge 2 Steve.jpg" alt="5Terre" width="240" height="160">
+    <img src="img/computerArt/Anime girl.jpg" alt="5Terre" width="240" height="160">
+      <img src="img/computerArt/Apple1.jpg" alt="5Terre" width="240" height="160">
+        <img src="img/computerArt/turtle 100%.jpg" alt="5Terre" width="240" height="160">
+          <img src="img/computerArt/halloween Drewzilla.jpg" alt="5Terre" width="240" height="160">
+            <img src="img/computerArt/Haunted House Steve Final.jpg" alt="5Terre" width="240" height="160">
+              <img src="img/computerArt/Three sphere working file.jpg" alt="5Terre" width="240" height="160">
+                <img src="img/computerArt/triangle.jpg" alt="5Terre" width="240" height="160">
+                  <img src="img/computerArt/Pig and Deer AND GOAT.jpg" alt="5Terre" width="240" height="160">
+                    <img src="img/computerArt/sae angel almost Final.jpg" alt="5Terre" width="240" height="160">
+
+
+                    <h2 class= "margin newcolor"  style="text-align:center">Color Pencil SlideShow <br>use keyboard arrow keys </h2>
+                
+
+                    <div class="container">
+                      
       
-      
-      
+                      
+                        <section class="section-art-1">
+
+                          
+                  
+                        
+                          <p class="art-par">
+
+                        <div class="container">
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/Snake.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/Raccoon w hand drawing.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/pumpkin Cat.jpg" style="width:50%">
+                          </div>
+                            
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/pepsi can.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/Pacific Woman final.jpg" style="width:50%">
+                          </div>
+                            
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/Mango.jpg" style="width:50%">
+                          </div>
+                      
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/pencil.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/monkey Gradient BAD COLOR.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/Creature.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/smiley.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/07-020 completed.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/challenge 2 Steve.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/Anime girl.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/Apple1.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/turtle 100%.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/halloween Drewzilla.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/Haunted House Steve Final.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/Three sphere working file.jpg" style="width:50%">
+                          </div>
+                        
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/triangle.jpg" style="width:50%">
+                          </div>
+
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/Pig and Deer AND GOAT.jpg" style="width:50%">
+                          </div>
+
+                          <div class="mySlides">
+                            <div class="numbertext"></div>
+                            <img src="img/computerArt/sae angel almost Final.jpg" style="width:50%">
+                          </div>
+                            
       
                                   </section>
 
-<br>
-<div class="u-center-text u-margin-top-huge">
-    <a href="index.html" class="btn btn--green">Back to home</a>
-</div>
-</div>
 
-<script src="js/lightbox-plus-jquery.min.js" charset="utf-8"></script>
+
+      
+                                  <a class="prev" onclick="plusSlides(-1)">❮</a>
+                                  <a class="next" onclick="plusSlides(1)">❯</a>
+                                
+                                
+                               
+                              <br>
+                              <div class="u-center-text u-margin-top-huge">
+                                  <a href="index.html" class="btn btn--green">Back to home</a>
+                              </div>
+                              </div>
+                              
+                               
+                              
+                                              
+                                              <script>
+                                              let slideIndex = 1;
+                                              showSlides(slideIndex);
+                                              
+                                              function plusSlides(n) {
+                                                showSlides(slideIndex += n);
+                                              }
+                                              
+                                              function currentSlide(n) {
+                                                showSlides(slideIndex = n);
+                                              }
+                                              
+                                              function showSlides(n) {
+                                                let i;
+                                                let slides = document.getElementsByClassName("mySlides");
+                                                let dots = document.getElementsByClassName("demo");
+                                                let captionText = document.getElementById("caption");
+                                                if (n > slides.length) {slideIndex = 1}
+                                                if (n < 1) {slideIndex = slides.length}
+                                                for (i = 0; i < slides.length; i++) {
+                                                  slides[i].style.display = "none";
+                                                }
+                                                for (i = 0; i < dots.length; i++) {
+                                                  dots[i].className = dots[i].className.replace(" active", "");
+                                                }
+                                                slides[slideIndex-1].style.display = "block";
+                                                dots[slideIndex-1].className += " active";
+                                                captionText.innerHTML = dots[slideIndex-1].alt;
+                                              }
+                              
+                              
+                              
+                              function plusDivs(n) {
+                                showDivs(slideIndex += n);
+                              }
+                              
+                              function currentDiv(n) {
+                                showDivs(slideIndex = n);
+                              }
+                              
+                              function showDivs(n) {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides");
+                                var dots = document.getElementsByClassName("demo");
+                                if (n > x.length) {slideIndex = 1}    
+                                if (n < 1) {slideIndex = x.length}
+                                for (i = 0; i < x.length; i++) {
+                                   x[i].style.display = "none";  
+                                }
+                                for (i = 0; i < dots.length; i++) {
+                                   dots[i].className = dots[i].className.replace(" w3-white", "");
+                                }
+                                x[slideIndex-1].style.display = "block";  
+                                dots[slideIndex-1].className += " w3-white";
+                              }
+                              
+                              
+                              
+                                              </script>
+                                  
 </body>
 </html>
