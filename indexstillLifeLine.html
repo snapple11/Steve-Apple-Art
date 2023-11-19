@@ -3,38 +3,51 @@
 <html>
 
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-<link rel="stylesheet" type="text/css" href="css/lbStyles.css">
-<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-            
-    
-<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
-
-
-<link rel="stylesheet" href="css/icon-font.css">
-<link rel="stylesheet" href="css/style.css">
-
-<link rel="shortcut icon" type="image/png" href="img/favicon.ico">
-<script>
-        function closeNav() {
-          document.getElementById("navi-toggle").checked = false;
-        }
-      </script>
-
-
-<title>Steve's Computer Art</title>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      
+      <link rel="stylesheet" type="text/css" href="css/lbStyles.css">
+      <link rel="stylesheet" type="text/css" href="css/slideShow.css">
+      <link rel="stylesheet" href="css/icon-font.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+      
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+          
+      
+      
+      <title>Steve's Still Life and Line Art</title>
+      
+               <script>
+                              function closeNav() {
+                                document.getElementById("navi-toggle").checked = false;
+                              }
+                              document.addEventListener('keydown', function(event) {
+          if(event.keyCode == 37) {
+              plusSlides(-1)
+          }
+          else if(event.keyCode == 39) {
+              plusSlides(1)
+          }
+      });
+                            </script>
 
   </head>
+    <body>
+        <header class="header "> 
+            <div class="header__logo-box">
+            
+            </div>
+            <div class="header__text-box">
+            
+            
+        </div>
+        </header>
+
 
     <body>
         <header class="header "> 
@@ -104,37 +117,162 @@
 <section class="section-art-1">
 
       
-  <p class="art-par">Click on a thumbnail to enlarge the art. Clicking on the right side of the expanded box takes you to the next image in the gallery. Click outside of the box to return.</p>
+
 <div class="gallery" id="ComputerArt">
 <!-- first image is the lightbox immage second immage is the gallery image -->
-<a href="img/Still life and line/Apples.jpg" data-lightbox="mygallery"><img src="img/Still life and line/Apples.jpg" alt="5Terre" width="240" height="160">
-<a href="img/Still life and line/Beast.jpg" data-lightbox="mygallery"><img src="img/Still life and line/Beast.jpg" alt="5Terre" width="240" height="160">
-  <a href="img/Still life and line/eggs.jpg" data-lightbox="mygallery"><img src="img/Still life and line/eggs.jpg" alt="5Terre" width="240" height="160">
-    <a href="img/Still life and line/first eye grey scale.pdf.jpg" data-lightbox="mygallery"><img src="img/Still life and line/first eye grey scale.pdf.jpg" alt="5Terre" width="240" height="160">
-      <a href="img/Still life and line/freehand deer.jpg" data-lightbox="mygallery"><img src="img/Still life and line/freehand deer.jpg" alt="5Terre" width="240" height="160">
-        <a href="img/Still life and line/girl.jpg" data-lightbox="mygallery"><img src="img/Still life and line/girl.jpg" alt="5Terre" width="240" height="160">
-          <a href="img/Still life and line/noses.jpg" data-lightbox="mygallery"><img src="img/Still life and line/noses.jpg" alt="5Terre" width="240" height="160">
-            <a href="img/Still life and line/Banna peel 1.jpg" data-lightbox="mygallery"><img src="img/Still life and line/Banna peel 1.jpg" alt="5Terre" width="240" height="160">
-		    <a href="img/Still life and line/head profile.jpg" data-lightbox="mygallery"><img src="img/Still life and line/head profile.jpg" alt="5Terre" width="240" height="160">
-              
+<img src="img/Still life and line/Apples.jpg" alt="5Terre" width="240" height="160">
+  <img src="img/Still life and line/Beast.jpg" alt="5Terre" width="240" height="160">
+    <img src="img/Still life and line/eggs.jpg" alt="5Terre" width="240" height="160">
+      <img src="img/Still life and line/first eye grey scale.pdf.jpg" alt="5Terre" width="240" height="160">
+        <img src="img/Still life and line/freehand deer.jpg" alt="5Terre" width="240" height="160">
+          <img src="img/Still life and line/girl.jpg" alt="5Terre" width="240" height="160">
+            <img src="img/Still life and line/noses.jpg" alt="5Terre" width="240" height="160">
+              <img src="img/Still life and line/Banna peel 1.jpg" alt="5Terre" width="240" height="160">
+                <img src="img/Still life and line/head profile.jpg" alt="5Terre" width="240" height="160">
+                
   
   
   
 </section>
-
-
- 
-
+<h2 class= "margin newcolor"  style="text-align:center">Still Life and Line Art SlideShow <br>use keyboard arrow keys </h2>
+                          
+          
+<div class="container">
   
 
-<br>
-<div class="u-center-text u-margin-top-huge">
-    <a href="index.html" class="btn btn--green">Back to home</a>
-</div>
-</div>
+  
+    <section class="section-art-1">
 
-<script src="js/lightbox-plus-jquery.min.js" charset="utf-8"></script>
+      
+
+    
+      <p class="art-par">
+
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="img/Still life and line/Apples.jpg" style="width:50%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="img/Still life and line/Beast.jpg" style="width:50%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="img/Still life and line/eggs.jpg" style="width:50%">
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="img/Still life and line/first eye grey scale.pdf.jpg" style="width:50%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="img/Still life and line/freehand deer.jpg" style="width:50%">
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="img/Still life and line/girl.jpg" style="width:50%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="img/Still life and line/noses.jpg" style="width:50%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="img/Still life and line/Banna peel 1.jpg" style="width:50%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="img/Still life and line/head profile.jpg" style="width:50%">
+      </div>
+    
+        
+
+              </section>
 
 
-	</body>
+
+
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            
+           
+          <br>
+          <div class="u-center-text u-margin-top-huge">
+              <a href="index.html" class="btn btn--green">Back to home</a>
+          </div>
+          </div>
+          
+           
+          
+                          
+                          <script>
+                          let slideIndex = 1;
+                          showSlides(slideIndex);
+                          
+                          function plusSlides(n) {
+                            showSlides(slideIndex += n);
+                          }
+                          
+                          function currentSlide(n) {
+                            showSlides(slideIndex = n);
+                          }
+                          
+                          function showSlides(n) {
+                            let i;
+                            let slides = document.getElementsByClassName("mySlides");
+                            let dots = document.getElementsByClassName("demo");
+                            let captionText = document.getElementById("caption");
+                            if (n > slides.length) {slideIndex = 1}
+                            if (n < 1) {slideIndex = slides.length}
+                            for (i = 0; i < slides.length; i++) {
+                              slides[i].style.display = "none";
+                            }
+                            for (i = 0; i < dots.length; i++) {
+                              dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                            slides[slideIndex-1].style.display = "block";
+                            dots[slideIndex-1].className += " active";
+                            captionText.innerHTML = dots[slideIndex-1].alt;
+                          }
+          
+          
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function currentDiv(n) {
+            showDivs(slideIndex = n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+               dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " w3-white";
+          }
+          
+          
+          
+                          </script>
+</body>
 </html>
